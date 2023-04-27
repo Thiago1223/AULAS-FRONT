@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    min-height: 50vh;
+    display: flex;
+    gap: 16px;
+    background-color: #000;
+    margin: 16px;
+    padding: 16px;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.aluno{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: blue;
+}
+.aluno__nota{
+    font-size: 120px;
+}
+.vermelho{
+    background-color: red;
+}
+.azul{
+    background-color: blue;
+}
